@@ -28,7 +28,7 @@ struct SettingsRowView: View {
                     Image(systemName: "arrow.up.right.square").foregroundColor(.pink)
                 }
                 else{
-                    /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                    EmptyView()
                 }
             }
         }
