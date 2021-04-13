@@ -13,7 +13,9 @@ Is a wrapper that SwiftUI uses for interact with ***UserDefaults*** values and p
 #### Example
 
 ```swift
-@AppStorage("isOnboarding") var isOnboarding: Bool = true
+struct ContentView: View {
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+}
 ```
 
 Follow [this link](https://developer.apple.com/documentation/swiftui/appstorage) for more details.
@@ -31,3 +33,16 @@ struct ContentView: View {
 }
 ```
 Follow [this link](https://developer.apple.com/documentation/swiftui/state) for more details.
+
+### NavigationView
+### ScrollView
+### LinearGradient
+### DisclosureGroup
+### Spacer
+### Divider
+### Zstack
+### Vstack
+### Hstack
+### Image
+### Text
+### GroupBox
